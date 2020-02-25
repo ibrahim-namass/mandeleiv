@@ -1,0 +1,46 @@
+.blow
+{
+    margin: auto;
+}
+td
+{
+    opacity: 0.8;
+    text-align: center;
+}
+.none
+{
+    border: none;
+}
+.one
+{
+    background-color: #a29bfe;
+}
+.two{background-color: #546de5;}
+.three{background-color: #78e08f;}
+.four{background-color: #b8e994;}
+.five{background-color: #ffeaa7;}
+.six{background-color: #fdcb6e;}
+.seven{background-color: #ffbe76;}
+.eight{background-color: #F97F51;}
+.nine{background-color: #FD7272;}
+.ten{background-color: #FC427B;}
+strong
+{
+    font-size: 23px;
+}
+@media screen and (max-width:1480px){
+    .blow{margin: auto; width: 900px;}
+    strong{font-size: 20px;}
+    span{font-size: 11px;}
+}
+@media screen and (max-width:1080px){
+    .blow{margin: auto; width: 500px;}
+    strong{font-size:  12px;}
+    span{font-size: 8px;}
+    td{margin: auto; width: 15px;}
+}
+@media screen and (max-width:760px){
+    .blow{margin: auto; }
+    strong{font-size: 9px;}
+    span{font-size: 4px;}
+}
